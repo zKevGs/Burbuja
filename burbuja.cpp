@@ -26,8 +26,8 @@ for(int i= 0; i<largo; i++){
 
 
 
-for (int i = 0; i<5; i++){
-    for (int j = 0; j<5;j++){
+for (int i = 0; i<largo; i++){
+    for (int j = 0; j<largo;j++){
         if(numeros[i]<numeros[j]){
             aux = numeros[i];
             numeros[i] = numeros[j];
@@ -36,7 +36,7 @@ for (int i = 0; i<5; i++){
     }
 }
 
-for (int i = 0; i<5; i++){
+for (int i = 0; i<largo; i++){
     cout << numeros[i] << " ";
 }
 

@@ -8,7 +8,7 @@ using namespace std;
 
 int  main(){
 
-int largo, numero;
+int largo;
 int aux = 0;
 
 cout << "ingrese el largo del array: ";
@@ -19,10 +19,7 @@ vector <size_t> numeros;
 for(int i = 0; i<largo;i++){
 
     cout << "ingrese el numero " << i+1 << ": ";
-    cin >> numero;
-    if(i != 2){
-        numeros.push_back(numero);
-    }
+    cin >> numeros[i];
 
 }
 
